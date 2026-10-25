@@ -85,7 +85,7 @@ export interface ProfileConfig {
 }
 
 export const profile: ProfileConfig = {
-  discordId: process.env.NEXT_PUBLIC_DISCORD_ID ?? "",
+  discordId: process.env.NEXT_PUBLIC_DISCORD_ID || "1451387900670382091",
 
   displayName: null,
   nameStyle: { source: "discord", font: null },
